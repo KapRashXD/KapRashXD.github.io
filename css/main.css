@@ -224,4 +224,10 @@ aside{
 #quotes div{
     margin-bottom: 10px;
 }
+#sloganwrapper{
+flex-direction: column;
+}
+#sloganimage{
+    width:100%;
+}
 }
