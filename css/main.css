@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+    line-height:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+h3{
+    border-bottom: 2px solid black;
+  }
+
+#compname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+    color:white;
+}
+
+header img{
+    width: 150px;
+}
+header{
+    margin-bottom: 20px;
+}
+
+#sloganimage{
+    width:50%;
+    opacity: 0.7;
+
+}
+#sloganimage img{
+    width:100%;
+}
+
+
+ #slogan{
+    text-align: center;
+    color:white;
+    background-color: rgb(31, 31, 31);
+    padding:10px;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+ #sloganwrapper{
+    display: flex;
+    align-items: center;
+    background-image: url("/img/wall.jpg");
+}
+
+#bodypart{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    background: radial-gradient(circle, transparent 20%, #1c1b1b 20%, #1c1b1b 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #1c1b1b 20%, #1c1b1b 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#4c4a4a 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #4c4a4a 2px, #1c1b1b 2px) -1px 0px / 32px 32px #1c1b1b;
+    background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+    background-color: #1c1b1b;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#about{
+    flex-direction: column;
+}
+
+.container{
+    display:flex;
+    border-radius:10px;
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(95, 95, 95, 0.763);
+    margin-bottom:20px;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+}
+
+#services #info{
+    display: flex;
+    
+}
+
+#services #info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    background-color: rgb(62, 60, 60);
+    border-radius: 10px;
+}
+
+#services img{
+    width:200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    
+    opacity: 0.7;
+}
+
+#services h4{
+padding:20px 0 20px 0;
+color:rgb(148, 146, 146);
+}
+
+#quotes{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#quotes img{
+    width:100px;
+    opacity: 0.4;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+#quotes div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(62, 60, 60);
+    margin:0 10px 0 10px;
+    padding:0 20px 0 20px;
+    color:rgb(148, 146, 146);
+    border-radius: 10px;
+}
+
+#quotes h2{
+    font-weight: 900;
+    background-color: rgb(95, 95, 95);
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+aside{
+    width: 20%;
+}
+aside nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(95, 95, 95, 0.763);
+    border-radius: 10px;
+    padding:30px;
+    
+}
+
+aside nav li{
+    color: rgb(122, 120, 120);
+    background-color: rgb(43, 40, 40);
+    margin:10px 0 10px 0;
+    padding:18px 32px 18px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+aside nav li:hover{
+    color:rgb(43, 40, 40);
+    background-color: rgb(122, 120, 120);;
+    
+}
+
+footer{
+    background-color: rgb(95, 95, 95);
+    margin-top:1px;
+}
+footer p{
+    padding:10px 0px 10px 10px;
+}
+@media screen and (max-width: 768px) {
+#bodypart{
+    flex-direction: column;
+
+}
+main{
+    width: 100%;
+}
+aside{
+    width: 100%;
+    margin-bottom:10px;
+}
+#info, #bodypart,#quotes{
+    flex-direction: column;
+}
+#quotes div{
+    margin-bottom: 10px;
+}
+}

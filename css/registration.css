@@ -1,0 +1,35 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+input:not(:last-child){
+    margin-bottom: 30px;
+}
+input{
+    font-size: 40px;
+}
+label{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#send{
+    
+    border-radius: 20px;
+    border:none;
+    background-color: blue;
+    color:white;
+    padding:18px 32px 18px 32px;
+    font-weight: 600
+    ;
+}
+input:not(#send){
+    border:none;
+    background-color: rgb(223, 217, 217);
+    border-radius: 10px;
+    padding:10px;
+}
